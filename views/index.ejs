@@ -1,4 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
 <%- include('header'); -%>
-<h1><%= title %></h1>
-<p>Welcome to <%= title %></p>
+<h1>phonebook</h1>
+<p>Welcome to my phonebook</p>
+<from action="/" method="post">
+  <p><button type="submit">Identifier vous</button></p>
+</from>
 <%- include('footer') -%>
+</body>
+</html>
